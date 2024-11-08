@@ -1,0 +1,53 @@
+[
+    {
+      "Id": "001",
+      "Cover": "1.jpg",
+      "Title": "Whispers in the Dark",
+      "Author": "Olivia Hayes",
+      "Author_Img": "https://example.com/author1.jpg",
+      "Posted_Date": "2024-10-10",
+      "Reading_Time": "3 hours",
+      "Hashtags": ["#Thriller", "#Mystery", "#Suspense", "#DarkFantasy", "#PageTurner"]
+    },
+    {
+      "Id": "002",
+      "Cover": "https://example.com/cover2.jpg",
+      "Title": "The Moonlit Horizon",
+      "Author": "Alexander Blackwood",
+      "Author_Img": "https://example.com/author2.jpg",
+      "Posted_Date": "2024-09-20",
+      "Reading_Time": "2 hours",
+      "Hashtags": ["#Romance", "#Fantasy", "#Adventure", "#MagicalRealism", "#Escape"]
+    },
+    {
+      "Id": "003",
+      "Cover": "https://example.com/cover3.jpg",
+      "Title": "The Digital Prophet",
+      "Author": "Mason Reed",
+      "Author_Img": "https://example.com/author3.jpg",
+      "Posted_Date": "2024-08-05",
+      "Reading_Time": "4 hours",
+      "Hashtags": ["#SciFi", "#Technology", "#ArtificialIntelligence", "#Futuristic", "#Cyberpunk"]
+    },
+    {
+      "Id": "004",
+      "Cover": "https://example.com/cover4.jpg",
+      "Title": "The Silent Witness",
+      "Author": "Emily Shaw",
+      "Author_Img": "https://example.com/author4.jpg",
+      "Posted_Date": "2024-07-15",
+      "Reading_Time": "1.5 hours",
+      "Hashtags": ["#Crime", "#Thriller", "#Detective", "#Mystery", "#Whodunit"]
+    },
+    {
+      "Id": "005",
+      "Cover": "https://example.com/cover5.jpg",
+      "Title": "Echoes of Eternity",
+      "Author": "Isabella Hart",
+      "Author_Img": "https://example.com/author5.jpg",
+      "Posted_Date": "2024-11-01",
+      "Reading_Time": "6 hours",
+      "Hashtags": ["#HistoricalFiction", "#EpicSaga", "#Romantic", "#Drama", "#TimeTravel"]
+    }
+  ]
+  
