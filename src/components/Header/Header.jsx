@@ -1,10 +1,12 @@
 import React from 'react'
-
+import profile from '../../assets/images/profile.png'
+// above import code shows how to import image from a file . Here profile is an alias
 const Header = () => {
   return (
-    <div>
+    <header className='flex justify-between items-center p-4 mx-4 border-b-2'>
         <h1 className='text-4xl font-bold'>Knowledge cafe</h1>
-    </div>
+        <img src={profile} alt="" srcset="" />
+    </header>
   )
 }
 
