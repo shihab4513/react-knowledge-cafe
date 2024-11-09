@@ -6,8 +6,9 @@ const Blog = ({blog}) => {
     <div>Blog</div>
   )
 }
-
+// How to remove proptype error warning
+// npm install --save prop-types
 Blog.PropTypes={
-    blog: PropTypes.object
+    blog: PropTypes.object.isRequired
 }
 export default Blog
