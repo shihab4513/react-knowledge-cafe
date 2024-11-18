@@ -13,9 +13,13 @@ function App() {
     const newBookmarks=[...bookmarks,blog];
     setBookmarks(newBookmarks);
   }
-  const handleMarkAsRead=time=>{
+  const handleMarkAsRead=(id,time)=>{
     const newReadingTime=readingTime+time;
     setReadingTime(newReadingTime);
+    // remove mark as read blog from bookmarks. basically what below edited code does is suppose if you bookmark a blog, then after you reading that blog you click mark as read then the blog got deleted from bookmarks
+    // console.log('remove bookmark id',id);
+    const remainingBookmarks=bookmarks.filter(bookmark=>bookmark.id!==id);
+    setBookmarks(remainingBookmarks);
     
   }
 
